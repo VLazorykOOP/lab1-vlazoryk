@@ -24,6 +24,16 @@ int ConsoleInputSizeArray(const int sizeMax)
     } while (size <= 0 || size >= sizeMax);
     return size;
 }
+
+int ConsoleInputSizeArray1(const int sizeMax)
+{
+    int size = 0;
+    do {
+        cout << " Input size Array ( 0< 1 < " << sizeMax << " ) ";
+        cin >> size;
+    } while (size <= 0 || size >= sizeMax);
+    return size;
+}
 /*
 *   ConsoleInputArrayDouble
 *
