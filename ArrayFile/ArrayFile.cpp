@@ -32,6 +32,7 @@ int ConsoleInputSizeArray1(const int sizeMax)
         cout << " Input size Array ( 0< 1 < " << sizeMax << " ) ";
         cin >> size;
     } while (size <= 0 || size >= sizeMax);
+    cout << size;
     return size;
 }
 /*
